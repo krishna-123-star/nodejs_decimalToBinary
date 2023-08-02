@@ -1,0 +1,10 @@
+const decimalToBinary = (decimalNumber) => {
+  return decimalNumber.toString(2);
+};
+
+const decimalNumber = 42;
+const binaryString = decimalToBinary(decimalNumber);
+console.log(`Decimal ${decimalNumber} in binary is: ${binaryString}`);
+
+/*Output
+Decimal 42 in binary is: 101010*/
